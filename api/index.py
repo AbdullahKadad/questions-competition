@@ -10,5 +10,4 @@ class handler(BaseHTTPRequestHandler):
         self.wfile.write(msg.encode())
         return
 
-# Export the handler as the main function
-main = handler
+

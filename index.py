@@ -11,4 +11,3 @@ class handler(BaseHTTPRequestHandler):
         msg = "Welcome To Questions Competition"
         self.wfile.write(msg.encode())
         
-        return
